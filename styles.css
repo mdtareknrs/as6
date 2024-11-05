@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding:0 150px;
+}
+.logotxt{
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-right: 140px;
+}
+.logonav{
+  display: flex;
+  align-items: center;
+}
+.logotxt a{
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+nav ul a{
+  text-decoration: none;
+}
+header img{
+  width: 40px;
+  
+  
+}
+main{
+  margin:0 50px;
+  background-color: #fff;
+  box-shadow: 0  5px 12px rgba(34, 4, 4, 0.089);
+  border-radius: 10px;
+}
+.product-container{
+  padding: 100px;
+  display: flex;
+}
+.image-section{
+  width: 630px;
+}
+main .image-section img{
+  width: 630px;
+  border-radius: 10px;
+
+  
+}
+main .image-section .thumbnail-images{
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  
+}
+
+main .image-section .thumbnail-images img{
+  width: 165px;
+
+}
+#details{
+  padding-left: 35px;
+}
+#details h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  
+}
+
+#dp{
+  font-size: 2rem;
+  color: rgb(68, 68, 68);
+  margin-right: 5px;
+}
+#cp{
+  text-decoration: line-through;
+  font-size: 1.2rem;
+  color: #8f8d8d;
+  
+}
+
+#cm{
+  background-color: #FFFBEB;
+  color: #745500;
+  padding: 5px 10px;
+  margin-top: 100px;
+  display: inline-block;
+  border-radius: 15px;
+  border: solid 1.5px #dbc978;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+#star{
+font-size: 1.5rem;
+margin-bottom: 30px;
+}
+#reviews{
+  font-size: 1rem;
+  text-decoration: none;
+  
+}
+#des{
+  line-height: 1.6rem;
+}
+#clr{
+  margin-top: 40px;
+  
+  
+}
+#clrs{
+  margin: 20px;
+}
+#clrs span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.color.green {
+  background-color: #a9c5a5;
+  border: 3px solid #888;
+}
+
+.color.yellow {
+  background-color: #c7a44d;
+  border: 3px solid #888;
+}

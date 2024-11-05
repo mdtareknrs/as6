@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partially Hidden Image</title>
+    <style>
+        /* Container styling */
+        .container {
+            width: 50px;           /* Fixed width */
+            height: auto;          /* Height auto-adjusts to image */
+            overflow: hidden;      /* Hides overflow */
+            border: 1px solid #333;
+        }
+
+        /* Image styling */
+        .container img {
+            width: 60px;           /* Image width larger than container */
+            height: auto;          /* Maintains aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="/main-image.jpg" alt="Image">
+    </div>
+
+</body>
+</html>
