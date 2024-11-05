@@ -69,7 +69,7 @@
 
                 <div class="size-section">
                     <p>Available Sizes:</p>
-                    <div class="sizes">
+                    <div id="sz" class="sizes">
                         <button>XS</button>
                         <button>S</button>
                         <button>M</button>
@@ -78,9 +78,9 @@
                     </div>
                 </div>
 
-                <div class="quantity-section">
+                <div id="qs" class="quantity-section">
                     <label for="quantity">Quantity:</label>
-                    <div class="quantity">
+                    <div id="qu" class="quantity">
                         <button>-</button>
                         <input type="number" id="quantity" value="1" min="1">
                         <button>+</button>
@@ -120,107 +120,126 @@
                 </div>
             </div>
         </div>
+        <section class="discover-elegance">
+            <h2>Discover timeless elegance</h2>
+            <p class="intro-text">
+                Step into a world where quality meets quintessential charm with our collection. Every thread weaves a promise of unparalleled quality, ensuring that each garment is not just a part of your wardrobe, but a piece of art. Here's the essence of what makes our apparel the hallmark for those with an eye for excellence and a heart for the environment.
+            </p>
+            <div id="tabs" class="tabs">
+                <a class="tab active" href="">Sustainability</a>
+                <a class="tab" href="">Comfort</a>
+                <a class="tab" href="">Durability</a>
+                <a class="tab" href="">Versatility</a>
+               
+            </div>
+        
+            <div class="eco-friendly-choice">
+                <img src="/sweter.jpg" alt="Eco-Friendly Choice">
+                <div class="eco-content">
+                    <h3>Eco-Friendly Choice</h3>
+                    <p>With our sustainable approach, we curate clothing that makes a statement of care—care for the planet, and for the art of fashion.</p>
+                    <div class="eco-icons">
+                        <div>
+                          <div><img src="/recycle-symbol.png" alt="Recycled Materials">
+                          </div>
+                          <span>Recycled Materials</span>
+                        </div>
+                        <div>
+                          <div><img src="/color.png" alt="Low Impact Dye">
+                          </div>
+                          <span>Low Impact Dye</span>
+                        </div>
+                        <div>
+                          <div><img src="/ecology.png" alt="Carbon Neutral">
+                          </div>
+                          <span>Carbon Neutral</span>
+                        </div>
+                        <div>
+                          <div><img src="/sustainable.png" alt="Water Conservation">
+                          </div>
+                          <span>Water Conservation</span>
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+        
+            <h3 class="collection-title">In this collection</h3>
+            <div class="collection">
+                <div class="product-card">
+                    <img src="product1.jpg" alt="Urban Drift Bucket Hat">
+                    <p class="product-color">Black</p>
+                    <h4>Urban Drift Bucket Hat</h4>
+                    <p class="price">$15</p>
+                    <div class="color-options">
+                        <span class="color black"></span>
+                        <span class="color white"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="product2.jpg" alt="Metro Hoodie">
+                    <p class="product-color">Black</p>
+                    <h4>Metro Hoodie</h4>
+                    <p class="price"><span class="discount-price">$81</span> <span class="original-price">$90</span></p>
+                    <div class="color-options">
+                        <span class="color black"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="product3.jpg" alt="Azure Attitude Shades">
+                    <p class="product-color">Blue</p>
+                    <h4>Azure Attitude Shades</h4>
+                    <p class="price">$45</p>
+                    <div class="color-options">
+                        <span class="color blue"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="product4.jpg" alt="City Quilted Jacket">
+                    <p class="product-color">White</p>
+                    <h4>City Quilted Jacket</h4>
+                    <p class="price"><span class="discount-price">$108</span> <span class="original-price">$120</span></p>
+                </div>
+            </div>
+        
+            <div class="newsletter">
+                <h3>Join our newsletter</h3>
+                <p>We’ll send you a nice letter once per week. No spam.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        
+            <footer>
+                <div class="footer-content">
+                    <div class="brand">
+                        <p><strong>StyleNest</strong></p>
+                        <p>Craft stunning style journeys that weave more joy into every thread.</p>
+                    </div>
+                    <div class="shop-categories">
+                        <h4>SHOP CATEGORIES</h4>
+                        <ul>
+                            <li>Unisex</li>
+                            <li>Women</li>
+                            <li>Men</li>
+                        </ul>
+                    </div>
+                    <div class="shop-collections">
+                        <h4>SHOP COLLECTIONS</h4>
+                        <ul>
+                            <li>Latest arrivals</li>
+                            <li>Urban Oasis</li>
+                            <li>Cozy Comfort</li>
+                            <li>Fresh Fusion</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="copyright">© 2024 StyleNest, Inc. All rights reserved.</p>
+            </footer>
+        </section>
     </main>
-    <section class="discover-elegance">
-        <h2>Discover timeless elegance</h2>
-        <p class="intro-text">
-            Step into a world where quality meets quintessential charm with our collection. Every thread weaves a promise of unparalleled quality, ensuring that each garment is not just a part of your wardrobe, but a piece of art. Here's the essence of what makes our apparel the hallmark for those with an eye for excellence and a heart for the environment.
-        </p>
-        <div class="tabs">
-            <span class="tab active">Sustainability</span>
-            <span class="tab">Comfort</span>
-            <span class="tab">Durability</span>
-            <span class="tab">Versatility</span>
-        </div>
     
-        <div class="eco-friendly-choice">
-            <img src="eco-friendly.jpg" alt="Eco-Friendly Choice">
-            <div class="eco-content">
-                <h3>Eco-Friendly Choice</h3>
-                <p>With our sustainable approach, we curate clothing that makes a statement of care—care for the planet, and for the art of fashion.</p>
-                <div class="eco-icons">
-                    <div><img src="icon-recycle.svg" alt="Recycled Materials"> Recycled Materials</div>
-                    <div><img src="icon-dye.svg" alt="Low Impact Dye"> Low Impact Dye</div>
-                    <div><img src="icon-carbon.svg" alt="Carbon Neutral"> Carbon Neutral</div>
-                    <div><img src="icon-water.svg" alt="Water Conservation"> Water Conservation</div>
-                </div>
-            </div>
-        </div>
-    
-        <h3 class="collection-title">In this collection</h3>
-        <div class="collection">
-            <div class="product-card">
-                <img src="product1.jpg" alt="Urban Drift Bucket Hat">
-                <p class="product-color">Black</p>
-                <h4>Urban Drift Bucket Hat</h4>
-                <p class="price">$15</p>
-                <div class="color-options">
-                    <span class="color black"></span>
-                    <span class="color white"></span>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="product2.jpg" alt="Metro Hoodie">
-                <p class="product-color">Black</p>
-                <h4>Metro Hoodie</h4>
-                <p class="price"><span class="discount-price">$81</span> <span class="original-price">$90</span></p>
-                <div class="color-options">
-                    <span class="color black"></span>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="product3.jpg" alt="Azure Attitude Shades">
-                <p class="product-color">Blue</p>
-                <h4>Azure Attitude Shades</h4>
-                <p class="price">$45</p>
-                <div class="color-options">
-                    <span class="color blue"></span>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="product4.jpg" alt="City Quilted Jacket">
-                <p class="product-color">White</p>
-                <h4>City Quilted Jacket</h4>
-                <p class="price"><span class="discount-price">$108</span> <span class="original-price">$120</span></p>
-            </div>
-        </div>
-    
-        <div class="newsletter">
-            <h3>Join our newsletter</h3>
-            <p>We’ll send you a nice letter once per week. No spam.</p>
-            <form>
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-    
-        <footer>
-            <div class="footer-content">
-                <div class="brand">
-                    <p><strong>StyleNest</strong></p>
-                    <p>Craft stunning style journeys that weave more joy into every thread.</p>
-                </div>
-                <div class="shop-categories">
-                    <h4>SHOP CATEGORIES</h4>
-                    <ul>
-                        <li>Unisex</li>
-                        <li>Women</li>
-                        <li>Men</li>
-                    </ul>
-                </div>
-                <div class="shop-collections">
-                    <h4>SHOP COLLECTIONS</h4>
-                    <ul>
-                        <li>Latest arrivals</li>
-                        <li>Urban Oasis</li>
-                        <li>Cozy Comfort</li>
-                        <li>Fresh Fusion</li>
-                    </ul>
-                </div>
-            </div>
-            <p class="copyright">© 2024 StyleNest, Inc. All rights reserved.</p>
-        </footer>
-    </section>
     
 </body>
 </html>

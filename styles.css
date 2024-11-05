@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  text-decoration: none;
   
 }
 
@@ -121,14 +122,18 @@ margin-bottom: 30px;
 }
 #des{
   line-height: 1.6rem;
+  color: #636363;
 }
 #clr{
   margin-top: 40px;
   
   
 }
+#clr p{
+  color: #696969;
+}
 #clrs{
-  margin: 20px;
+  margin:  20px 10px;
 }
 #clrs span {
   display: inline-block;
@@ -147,4 +152,178 @@ margin-bottom: 30px;
 .color.yellow {
   background-color: #c7a44d;
   border: 3px solid #888;
+}
+
+#sz{
+display: flex;
+margin: 20px 0;
+gap: 15px;
+}
+#sz button{
+  width: 70px;
+  height: 50px;
+  font-weight: ;
+  font-size: 1.2rem;
+  background-color: white;
+  border: solid 1.9px #b8b8b8;
+}
+
+#qs{
+  margin: 40px 0px ;
+ 
+}
+#qu{
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+}
+#qu button, input{
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  
+}
+/*  */
+#qu {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#qu button,
+#qu input {
+  border: 1px solid #ccc; /* Set a border around the entire control */
+  padding: 8px;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  background-color:#f0f0f0;;
+}
+
+#qu button {
+  width: 44px;
+  height: 40px;
+  background-color: #f0f0f0; /* Customize button background */
+  cursor: pointer;
+  font-size: 1.5rem;
+  
+}
+
+#qu button:first-child {
+  border-radius: 4px 0 0 4px; /* Round the left corners of the minus button */
+  border-right: none;
+
+}
+
+#qu button:last-child {
+  border-radius: 0 4px 4px 0; /* Round the right corners of the plus button */
+  border-left: none;
+}
+
+#qu input {
+  width: 44px;
+  height: 40px;
+  text-align: center;
+  border-left: none; /* Remove borders to join elements */
+  border-right: none;
+}
+.add-to-cart{
+  width: 100%;
+  background-color:#4438CA;
+  color: #fff;
+  font-size: 1.3rem;
+  height: 60px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.features-section{
+  border-bottom: #8a8a8a80 solid 1.9px;
+}
+.features-section ul{
+  padding:20px 30px 40px;
+}
+
+.fabric-care{
+  border-bottom: #8a8a8a80 solid 1.9px;
+  margin: 40px 0;
+}
+.fabric-care ul{
+  padding:20px 30px 40px;
+}
+
+.shipping{
+  margin: 40px 0;
+}
+.shipping ul{
+  padding:20px 30px 40px;
+}
+.discover-elegance{
+  padding: 100px;
+  line-height: 1.6;
+}
+.discover-elegance h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.intro-text{
+  /* background-color: red; */
+  width: 95%;
+  font-size: 1rem;
+}
+#tabs{
+  /* background-color: #b2b1bb; */
+  gap: 66px;
+  display: flex;
+  margin-top: 90px;
+  border-bottom: #63636375 1px solid;
+  padding: 10px;
+}
+
+.eco-friendly-choice{
+  display: flex;
+  margin: 40px 0;
+}
+.eco-friendly-choice img{
+  width: 390px;
+  height: 100%;
+  border-radius: 10px;
+}
+.eco-content{
+  padding-left: 30px;
+  
+}
+.eco-content h3{
+font-size: 1.7rem;
+}
+.eco-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for a 2x2 grid */
+  gap: 20px; /* Space between items */
+  max-width: 700px;
+  margin: 40px auto; /* Center the grid container */
+  text-align: left; /* Aligns text and icon to the left */
+}
+
+.eco-icons > div {
+  display: flex;
+  align-items: center; /* Center items vertically within each row */
+  gap: 10px; /* Space between icon and text */
+}
+
+.eco-icons div div {
+  background-color: rgb(255, 255, 255);
+  width: 50px; /* Background circle size */
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.425); /* Shadow for circle */
+}
+
+.eco-icons div div img {
+  width: 30px; /* Icon size */
+  height: 30px;
 }
