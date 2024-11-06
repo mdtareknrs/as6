@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voyager Hoodie - StyleNest</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/47427d556f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="logonav">
-        <div class="logotxt">
+            <div class="logotxt">
             <img src="/logo.png" alt="">
-            <a href="">StyleNestt</a>
+            <a href="">StyleNest</a>
             
         </div>
         <nav>
@@ -167,7 +168,7 @@
             <h3 class="collection-title">In this collection</h3>
             <div class="collection">
                 <div class="product-card">
-                    <img src="product1.jpg" alt="Urban Drift Bucket Hat">
+                    <img src="/collection1.png" alt="Urban Drift Bucket Hat">
                     <p class="product-color">Black</p>
                     <h4>Urban Drift Bucket Hat</h4>
                     <p class="price">$15</p>
@@ -177,16 +178,16 @@
                     </div>
                 </div>
                 <div class="product-card">
-                    <img src="product2.jpg" alt="Metro Hoodie">
+                    <img src="/collection2.png" alt="Metro Hoodie">
                     <p class="product-color">Black</p>
                     <h4>Metro Hoodie</h4>
-                    <p class="price"><span class="discount-price">$81</span> <span class="original-price">$90</span></p>
+                    <p class="price"><span class="discount-price">$81</span> <span id="corg" class="original-price">$90</span></p>
                     <div class="color-options">
                         <span class="color black"></span>
                     </div>
                 </div>
                 <div class="product-card">
-                    <img src="product3.jpg" alt="Azure Attitude Shades">
+                    <img src="/collection3.png" alt="Azure Attitude Shades">
                     <p class="product-color">Blue</p>
                     <h4>Azure Attitude Shades</h4>
                     <p class="price">$45</p>
@@ -195,17 +196,18 @@
                     </div>
                 </div>
                 <div class="product-card">
-                    <img src="product4.jpg" alt="City Quilted Jacket">
+                    <img src="/collection4.png" alt="City Quilted Jacket">
                     <p class="product-color">White</p>
                     <h4>City Quilted Jacket</h4>
-                    <p class="price"><span class="discount-price">$108</span> <span class="original-price">$120</span></p>
+                    <p class="price"><span class="discount-price">$108</span> <span id="corg" class="original-price">$120</span></p>
                 </div>
             </div>
         
             <div class="newsletter">
-                <h3>Join our newsletter</h3>
+                <div id="join"><h3>Join our newsletter</h3>
                 <p>We’ll send you a nice letter once per week. No spam.</p>
-                <form>
+            </div>
+             <form>
                     <input type="email" placeholder="Enter your email" required>
                     <button type="submit">Subscribe</button>
                 </form>
@@ -214,7 +216,9 @@
             <footer>
                 <div class="footer-content">
                     <div class="brand">
+                        <div><img src="/logo.png" alt="">
                         <p><strong>StyleNest</strong></p>
+                    </div>
                         <p>Craft stunning style journeys that weave more joy into every thread.</p>
                     </div>
                     <div class="shop-categories">
@@ -235,7 +239,15 @@
                         </ul>
                     </div>
                 </div>
-                <p class="copyright">© 2024 StyleNest, Inc. All rights reserved.</p>
+                <div id="copy"><p class="copyright">© 2024 StyleNest, Inc. All rights reserved.</p>
+                    <p id="ficon">
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </p>
+                </div>
             </footer>
         </section>
     </main>
