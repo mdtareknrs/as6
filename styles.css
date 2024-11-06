@@ -330,3 +330,9 @@ font-size: 1.7rem;
 .collection-title{
   font-size: 2rem;
 }
+
+.collection .product-card{
+  width: ;
+  background-color: red;
+  display: flex;
+}
